@@ -1,1 +1,114 @@
 /* Los estilos de tu proyecto */
+
+/* ENCABEZADO */
+.navbar {
+	margin-bottom: -20px;
+}
+
+.primero {
+	padding: 2em;
+}
+
+.primero ul a {
+	padding-left: 2em;
+}
+
+/* PRIMER CONTAINER-IMÁGEN */
+.segundo {
+  background-image: url(../assets/images/taxi.jpg);
+  height: 87vh;
+  background-position: bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.cuadrado {
+	background-color: #FBBD00;
+	height: 350px;
+	width: 100%;
+	margin-top: 100px;
+}
+
+.texto {
+	padding: 1em;
+	color: #fff;
+}
+
+.texto h2 {
+	line-height: 0.7em;
+}
+
+.texto h4 img {
+	width: 4em;
+}
+
+.jumbotron {
+   padding-top: 0;
+}
+
+.container .jumbotron {
+	padding: initial;
+  margin-top: 0px;
+}
+
+.texto hr {
+	width: 100px;
+}
+
+/* SEGUNDO CONTAINER */
+
+.tercero {
+	background-color: #FBBD00;
+	height: 70vh;
+	width: 100%;	
+}
+
+.tercerob {
+	margin-top: 4em;
+	border: 1px solid #fff;
+}
+
+.terceroc img {
+	width: 22em;
+	padding: 2em;
+}
+
+.tercerod {
+	color: #fff;
+	line-height: 1em;
+}
+
+/* TERCER CONTAINER */
+.conductor {
+	background-image: url(../assets/images/conduce.jpg);
+	height: 60vh;
+	width: 100%;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.cuarto {
+	padding: 0px;
+}
+
+.cuadrado2 {
+	background-color: #000;
+	opacity: 0.5;
+	height: 150px;
+	width: 100%;
+}
+
+/*CUARTO CONTAINER*/
+.quinto {
+	background-color: #FBBD00;
+	height: 70vh;
+	width: 100%;	
+}
+
+/*QUINTO CONTAINER*/
+.sexto {
+	background-color: #2F2F2F;
+	height: 70vh;
+	width: 100%;	
+}
