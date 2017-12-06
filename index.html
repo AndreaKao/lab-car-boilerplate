@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- Link del archivo main.css -->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="">
 </head>
 
 <body>
@@ -62,47 +63,41 @@
   </section>
 
   <!-- SEGUNDO CONTAINER -->
-  <section>
+  <section class="tercero">
   	<div class="container-fluid">
-  		<div class="row">
-  			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tercero">
-  				<div class="row">
-  					<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 tercerob">
-	  					<div class="col-lg-6 terceroc">
-	  						<img class="responsive-img" src="assets/images/iPhone6Plus.png">
-	  					</div>
-	  					<div class="col-lg-6 hidden-xs hidden-sm hideen-md tercerod">
-	  						<h3><strong>Descarga la nueva app</strong></h3>
-	  						<br>
-	  						<p>La versión actualizada de LabCar</p>
-	  						<p>está llena de nuevas funciones para </p>
-	  						<p>llegar a donde quieras aún mas fácil</p>
-	  						<p>y rápido.</p>
-	  						<br>
-	  						<p>Con sólo tocar un botón, un auto</p>
-	  						<p>llega justo a tu ubicación. Súbete y</p>
-	  						<p>no te preocupes: tu conductor sabe</p> 
-	  						<p>exactamente a donde ir.</p>
-	  						</p>
-	  					</div>
-	  				</div>
-  				</div>
-  			</div>
+  		<div class="row tercerob">
+	  			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+	  				<img src="assets/images/iPhone6Plus.png" class="phone" ">
+	  			</div>
+	  			<div class="hidden-xs hidden-sm col-md-6 col-lg-6" class="texto">
+	  		  	<h3><strong>Descarga la nueva app</strong></h3>
+		  			<br>
+		  			<p>La versión actualizada de LabCar</p>
+		  			<p>está llena de nuevas funciones para </p>
+		  			<p>llegar a donde quieras aún mas fácil</p>
+		  			<p>y rápido.</p>
+		  			<br>
+		  			<p>Con sólo tocar un botón, un auto</p>
+		  			<p>llega justo a tu ubicación. Súbete y</p>
+		  			<p>no te preocupes: tu conductor sabe</p> 
+		  			<p>exactamente a donde ir.</p>
+	  			</div>
+ 
   		</div>
   	</div>
   </section>
 
   <!-- TERCER CONTAINER -->
-  <section>
+  <section class="conductor">
   	<div class="container-fluid">
-  		<div class="row">
-  			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 cuarto">
-					<img class="conductor" class="responsive-img">
-					<div class="row">
-						<div class="col-xs-10 col-md-offset-2 col-sm-10 col-md-offset-2  col-md-3 col-md-offset-9 col-lg-3 col-lg-offset-9">
-							<div class="jumbotron cuadrado2">
-							</div>
-						</div>
+  		<div class="row cuarto">
+  			<div class="col-xs-10 col-md-offset-2 col-sm-10 col-md-offset-2  col-md-3 col-md-offset-9 col-lg-3 col-lg-offset-9">
+					<div class="jumbotron cuadrado2">
+					<h3>Conduce cuando quieras</h3>
+					<br>
+					<p>LabCar es una opción flexible para alcanzar tus metas financieras</p>
+					<br>
+					<p><a class="btn btn-default btn-md" href="#" role="button">Conviértete en conductor</a></p>
 					</div>
 				</div>
 			</div>
@@ -110,16 +105,60 @@
 	</section>
 
 	<!-- CUARTO CONTAINER -->
-	<section>
+	<section class="formulario">
   	<div class="container-fluid">
   		<div class="row">
-  			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 quinto">
+  			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
   				<div class="row">
-  					<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 quintob">
-	  					<div class="col-lg-6 quintoc">
-	  						<img class="responsive-img" src="assets/images/iPhone6Plus.png">
+  					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 quinto">
+  						<div class="row">
+  							<div class="col-xs-10 col-sm-10 col-md-4 col-lg-4 quintob">
+  								<h1><strong>Tarifas</strong></h1>
+  								<br>
+  								<h4>Consulta las tarifas Labcar aquí</h4>
+  							</div>
+  						</div>
+  						<br>
+  						<br>
+  						<div class="row">
+  							<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 quintob">
+									<i class="fa fa-dot-circle-o fa-2x" aria-hidden="true"></i>
+								</div>
+  							<div class="col-xs-11 col-sm-11 col-md-11 col-lg-11 quintob">
+									<div class="input-group input-group-lg">
+  									<input type="text" class="form-control map" placeholder="Ingrese su punto de partida" aria-describedby="sizing-addon1">
+  								</div>
+  							</div>
+  						</div>
+  						<br>
+  						<div class="row">
+  							<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 quintob">
+									<i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i>
+								</div>
+								<div class="col-xs-11 col-sm-11 col-md-11 col-lg-11 quintob">
+									<div class="input-group input-group-lg">
+										<input type="text" class="form-control map" placeholder="Ingrese su destino" aria-describedby="sizing-addon1">
+	  							</div>
+	  						</div>
 	  					</div>
+	  					<div class="row">
+  							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 quintob">
+	  							<br>
+									<a class="btn btn-default btn-md" href="#" role="button"><strong> ¡TRAZAR RUTA! </strong></a>
+								</div>
+	  					</div>
+						</div>
+	  				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 quintoc">
+	  					<iframe class="mapa"src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13294.734693247412!2d-70.639792!3d-33.5875615!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scl!4v1512516916421" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+	  				</div>
+	    		</div>
+	  		</div>
+	  	</div>
+	  </div>
+	</section>
+<!--
 	  					<div class="col-lg-6 hidden-xs hidden-sm hideen-md quintod">
+	  
 	  						<h3><strong>Descarga la nueva app</strong></h3>
 	  						<br>
 	  						<p>La versión actualizada de LabCar</p>
@@ -138,9 +177,10 @@
   			</div>
   		</div>
   	</div>
-  </section>
+  </section> -->
 
   <!-- QUINTO CONTAINER -->
+  <!--
   	<section>
   	<div class="container-fluid">
   		<div class="row">
@@ -169,7 +209,7 @@
   			</div>
   		</div>
   	</div>
-  </section>
+  </section>  -->
 
 
 <!-- Script de JQuery -->
@@ -178,5 +218,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!-- Script del archivo app.js -->
 <script type="text/javascript" src="js/app.js"></script>
+<!-- Script de los iconos -->
+<script src="https://use.fontawesome.com/50f497f43c.js"></script>
 </body>
 </html>
