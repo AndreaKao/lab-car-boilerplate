@@ -115,11 +115,12 @@
 	background-color: #FBBD00;
 	height: 70vh;
 	width: 100%;
-	padding: 3em;
+	padding: 2em;
 }
 
-.quintob{
+.quintob {
 	color: #fff;
+	line-height: 1em;
 }
 
 .quintob .map {
@@ -144,17 +145,47 @@
 
 .quinto .btn {
 	padding: 1em;
-	margin-left: 120px;
+	margin-left: 100px;
 }
 
-.quintoc .mapa {
+.quintoc {
+	padding: 2em;
+}
+
+.mapa {
 	height: 50vh;
-	width: 50vh;	
+	width: 50vh;
+	padding: 1em;
+	border: solid #fff;
 }
 
 /*QUINTO CONTAINER*/
 .sexto {
 	background-color: #2F2F2F;
-	height: 70vh;
+	height: 75vh;
 	width: 100%;	
+	color: #fff;
+	line-height: 2em;
+	padding: 1em;
+}
+
+.sexto li {
+	list-style: none;
+}
+
+.sextob li {
+	padding-left: 20em;
+	list-style: none;
+}
+
+.redes {
+	float: left;
+}
+
+.redes .fa {
+	padding-left: 1em;
+}
+
+.sextoc {
+	line-height: 1em;
 }
