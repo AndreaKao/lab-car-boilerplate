@@ -5,6 +5,10 @@
 	margin-bottom: -20px;
 }
 
+.navbar-toggle {
+	float: left;
+}
+
 .primero {
 	padding: 2em;
 }
